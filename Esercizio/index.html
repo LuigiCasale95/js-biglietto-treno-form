@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Boostrap -->
+<!--      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
      
-
+     <!-- CSS -->
     <link rel="stylesheet" href="main.css">
     <title>Biglietto treno form</title>
 </head>
@@ -15,25 +18,26 @@
         <h1 class="titolo">Compila per generare il tuo biglietto</h1>
 
         <div class="boxInput">
-
-            <form class="mioForm" action="">
-                <!-- Inserisci nome -->
-                <label for="exampleFormControlInput1" class="form-label">Nome <label>                           
-                <input type="text" class="nomeUser" id="exampleFormControlInput1" placeholder="Inserisci il tuo Nome">
-                <!-- Inserisci cognome -->
-                <label for="exampleFormControlInput1" class="form-label">Cognome<label>                           
-                <input type="text" class="cognomeUser" id="exampleFormControlInput1" placeholder="Inserisci il tuo Cognome">
-                <!-- Inserisci i km da percorrere -->
-                 <label for="kmDaPercorrere">Km da percorrere</label>
-                 <input type="number" class="kmUser" placeholder="Inserisci i km"><br>
-                 <!-- Inserisci la tua età -->
-                 <label for="età">Età</label>
-                 <input type="number" class="etàUser" placeholder="Inserisci la tua età"><br>
-
-
-                 <button class="bottone">Genera biglietto</button>
-                </form>
-
+            <div class="boxForm">
+                <form class="mioForm" action="">
+                    <!-- Inserisci nome -->
+                    <label> Nome <label>                       
+                        <input type="text" class="nomeUser" id="exampleFormControlInput1" placeholder="Inserisci il tuo Nome">
+                        <!-- Inserisci cognome -->
+                        <label >Cognome<label>                           
+                            <input type="text" class="cognomeUser" id="exampleFormControlInput1" placeholder="Inserisci il tuo Cognome"><br>
+                            <!-- Inserisci i km da percorrere -->
+                            <label> Km da percorrere</label>
+                            <input type="number" class="kmUser" placeholder="Inserisci i km">
+                            <!-- Inserisci la tua età -->
+                            <label for="età">Età</label>
+                            <input type="number" class="etàUser" placeholder="Inserisci la tua età"><br>
+                            
+                            
+                            <button class="bottone">Genera biglietto</button>
+                        </form>
+                        
+            </div>
 
         </div>
 
@@ -53,6 +57,7 @@
                             <li class="prezzoBiglietto">Il prezzo del biglietto è: </li>
                             <li class="scontoApplicato">Lo sconto applicato è del: </li>
                         </ul>
+                        <button class="botAquista">Aquista</button>
                     </form>
                     
             </div>

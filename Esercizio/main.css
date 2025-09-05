@@ -12,7 +12,7 @@ body {
 }
 .boxInput {
     margin: 0 auto;
-    max-width: 85%;
+    max-width: 90%;
     height: 280px;
     background-color: white;
     border: 3px solid black;
@@ -24,7 +24,7 @@ input {
 }
 .boxOutput {
     margin: 0 auto;
-    max-width: 85%;
+    max-width: 90%;
     height: 280px;
     background-color: white;
     border: 3px solid black;
@@ -33,9 +33,7 @@ input {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-/*     display: none;
- */}
+    flex-direction: row;}
 .none {
         display: none;
 
@@ -44,14 +42,30 @@ input {
     width: 200px;
     height: 200px;
     display: inline;
-    border: 2px solid red;
+    border: 2px solid #A5292A;
 }
 .bottone {
-    padding: 5px;
-    border-radius: 5%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: chocolate;
+
 }
 .titolo {
-    text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.mioForm {
+    display: flex;
+    justify-content: center;
+}
+.botAquista {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: chocolate;
+}
+.outputNominativo {
+    margin-bottom: 20px;
+    font-size: 30px;
 }

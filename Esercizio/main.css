@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: brown;
+}
+#container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.boxInput {
+    margin: 0 auto;
+    max-width: 85%;
+    height: 280px;
+    background-color: white;
+    border: 3px solid black;
+    padding: 5px;
+}
+input {
+    margin: 10px;
+    padding: 3px;
+}
+.boxOutput {
+    margin: 0 auto;
+    max-width: 85%;
+    height: 280px;
+    background-color: white;
+    border: 3px solid black;
+    margin-top: 150px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.imgTreno {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border: 2px solid red;
+}
+.bottone {
+    padding: 5px;
+    border-radius: 5%;
+}
+.titolo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

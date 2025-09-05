@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     
+
+    <link rel="stylesheet" href="main.css">
+    <title>Biglietto treno form</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1 class="titolo">Compila per generare il biglietto</h1>
+
+        <div class="boxInput">
+
+            <form class="mioForm" action="">
+                <!-- Inserisci nome -->
+                <label for="exampleFormControlInput1" class="form-label">Nome <label>                           
+                <input type="text" class="nomeUser" id="exampleFormControlInput1" placeholder="Inserisci il tuo Nome">
+                <!-- Inserisci cognome -->
+                <label for="exampleFormControlInput1" class="form-label">Cognome<label>                           
+                <input type="text" class="cognomeUser" id="exampleFormControlInput1" placeholder="Inserisci il tuo Cognome">
+                <!-- Inserisci i km da percorrere -->
+                 <label for="kmDaPercorrere">Km da percorrere</label>
+                 <input type="number" class="kmUser" placeholder="Inserisci i km"><br>
+                 <!-- Inserisci la tua età -->
+                 <label for="età">Età</label>
+                 <input type="number" class="etàUser" placeholder="Inserisci la tua età"><br>
+
+
+                 <button class="bottone">Genera biglietto</button>
+                </form>
+
+
+        </div>
+
+        <div class="boxOutput">
+            <div class="boxImgTreno">
+                <h1 class="nBiglietto">Biglietto n.</h1>
+                <img class="imgTreno" src="https://media.istockphoto.com/id/1181249621/it/foto/il-treno-passeggeri-elettrico-guida-ad-alta-velocit%C3%A0-tra-il-paesaggio-urbano.jpg?s=2048x2048&w=is&k=20&c=9zRkypqsr92cCM6Pi4m8raLJTnuDbdKLUurounwcoPU=">
+            </div>
+            <div>
+                <form action="*">
+                    <!--Dati cliente-->
+                    <h2 class="outputNominativo">Nome Cognome</h3>
+                        <h4 class="outputKm">Km richiesti</h4>
+                        <h4 class="outputEtà">Età passeggero</h4>
+                        <!-- Prezzo del Biglietto -->
+                        <h4 class="prezzoBiglietto">Il prezzo del biglietto è: </h4>
+                        <h4 class="scontoApplicato">Lo sconto applicato è del: </h4>
+                    </form>
+                    
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

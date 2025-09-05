@@ -41,22 +41,30 @@ input {
 .imgTreno {
     width: 200px;
     height: 200px;
+    border-radius: 70px;
+    margin-top: 10px;
     display: inline;
     border: 2px solid #A5292A;
 }
 .bottone {
     margin: 0 auto;
     padding: 10px;
+    margin-top: 30px;
     border-radius: 100px;
     background-color: chocolate;
 
 }
 .titolo {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: white;
 }
 .mioForm {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }

@@ -54,15 +54,13 @@ mioForm.addEventListener("submit",
 
         /* Dischiarazione sconto applicato */
         if (ageUser.value < 18) {
-            outpuScontoApplicato.innerHTML = `Sconto applicato: 20% per i minorenni`
+            outpuScontoApplicato.innerHTML = `Sconto minorenni = 20%`
         } else if (ageUser.value >= 65){
-            outpuScontoApplicato.innerHTML = `Sconto applicato: 40% per gli over 65` 
+            outpuScontoApplicato.innerHTML = `Sconto over 65 = 40%` 
         } else {
-            outpuScontoApplicato.innerHTML = `Non ci sono sconti` 
+            outpuScontoApplicato.innerHTML = `` 
         }
         nuovoBiglietto.classList.remove("none")
-    
-
 }
 )
 

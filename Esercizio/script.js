@@ -48,7 +48,7 @@ mioForm.addEventListener("submit",
         totBiglietto = calcoloPrezzo(kmUser.value, ageUser.value)
         outputPrezzobiglietto.innerHTML = `Il prezzo del biglietto è di: ${totBiglietto} €` 
         /* Generatore numero biglietto */
-        let numeroRandom = Math.floor((Math.random()* 1000 - 100 + 1) +100)
+        let numeroRandom = Math.floor((Math.random()* 10000 - 1000 + 1) +1000)
         bigliettoNum.innerHTML = `Biglietto n: ${numeroRandom}`
 
         /* Dischiarazione sconto applicato */

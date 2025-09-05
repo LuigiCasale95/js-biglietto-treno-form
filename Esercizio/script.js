@@ -22,6 +22,7 @@ const nomeUser = document.querySelector(".nomeUser")
 const cognomeUser = document.querySelector(".cognomeUser")
 const kmUser = document.querySelector(".kmUser")
 const ageUser = document.querySelector(".etàUser")
+const nuovoBiglietto = document.querySelector(".boxOutput")
 
 const mioForm = document.querySelector(".mioForm")
 console.log(mioForm);
@@ -59,6 +60,7 @@ mioForm.addEventListener("submit",
         } else {
             outpuScontoApplicato.innerHTML = `Non ci sono sconti` 
         }
+        nuovoBiglietto.classList.remove("none")
     
 
 }
